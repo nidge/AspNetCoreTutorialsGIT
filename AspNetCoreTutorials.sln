@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{17DF96F3-B617-4CD4-8D73-428D87F20D59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi", "TodoApi\TodoApi.csproj", "{F6C0E660-1A2D-498A-BCE7-58F0C35A7800}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie\RazorPagesMovie.csproj", "{0A4B5403-FC0D-4205-8D7F-7E6BC8F5BF89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreTodo", "AspNetCoreTodo\AspNetCoreTodo\AspNetCoreTodo.csproj", "{804C3AF9-727F-4330-AF20-B9B4DFA38222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66F95FDA-AD22-4A16-9DBE-3EEC75015A93}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17DF96F3-B617-4CD4-8D73-428D87F20D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DF96F3-B617-4CD4-8D73-428D87F20D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DF96F3-B617-4CD4-8D73-428D87F20D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DF96F3-B617-4CD4-8D73-428D87F20D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C0E660-1A2D-498A-BCE7-58F0C35A7800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C0E660-1A2D-498A-BCE7-58F0C35A7800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C0E660-1A2D-498A-BCE7-58F0C35A7800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C0E660-1A2D-498A-BCE7-58F0C35A7800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4B5403-FC0D-4205-8D7F-7E6BC8F5BF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4B5403-FC0D-4205-8D7F-7E6BC8F5BF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4B5403-FC0D-4205-8D7F-7E6BC8F5BF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4B5403-FC0D-4205-8D7F-7E6BC8F5BF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804C3AF9-727F-4330-AF20-B9B4DFA38222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804C3AF9-727F-4330-AF20-B9B4DFA38222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804C3AF9-727F-4330-AF20-B9B4DFA38222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804C3AF9-727F-4330-AF20-B9B4DFA38222}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71D4C854-35D4-4AF1-9362-2708A25D343C}
+	EndGlobalSection
+EndGlobal

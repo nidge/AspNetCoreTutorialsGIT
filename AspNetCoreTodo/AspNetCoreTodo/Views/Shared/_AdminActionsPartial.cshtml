@@ -1,0 +1,19 @@
+
+@using Microsoft.AspNetCore.Identity
+@using AspNetCoreTodo.Models
+
+@inject SignInManager<ApplicationUser> signInManager
+@inject UserManager<ApplicationUser> userManager
+
+@if (signInManager.IsSignedIn(User))
+{
+
+<ul class="nav navbar-nav navbar-right">
+    <li>
+        <a asp-controller="ManageUsers" asp-action="Index">
+            Manage Users
+        </a>
+    </li>
+</ul>
+
+}
